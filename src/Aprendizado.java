@@ -108,7 +108,7 @@ System.out.println("Nota inválida");
                     System.out.println("Não aprovado");
                     break;
                 default:
-                    System.out.println("Graduação inválida!");
+                    System.out.println("Graduação inválida!");.
 
 
          */
