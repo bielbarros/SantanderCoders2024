@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="200d3575-5fc0-4a6e-9447-2af52a56567b" name="Changes" comment="add Estruturas condicionais">
+    <list default="true" id="200d3575-5fc0-4a6e-9447-2af52a56567b" name="Changes" comment="Manipulação de strings e datas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aprendizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aprendizado.java" afterDir="false" />
     </list>
@@ -79,11 +79,20 @@
       <option name="project" value="LOCAL" />
       <updated>1718152560815</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Manipulação de strings e datas">
+      <option name="closed" value="true" />
+      <created>1718405794602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718405794602</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Estruturas condicionais" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Estruturas condicionais" />
+    <MESSAGE value="Manipulação de strings e datas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manipulação de strings e datas" />
   </component>
 </project>

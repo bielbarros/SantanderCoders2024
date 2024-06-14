@@ -147,7 +147,14 @@ import java.util.Locale;
                 System.out.printf("Olá, %s. Hoje é %s, %s.%n", nome, diaSemana, saudacao.toUpperCase());
 
 
+                // LAÇOS NUMÉRICOS
 
+                // para uma variável que inicia em 1, e vai até 10, mudando de 1 por 1, faça:
+                for (int i = 1; 1 <= 10; i++) {
+                    for (int j = 1; j <=10; j++) {
+                        System.out.println(j + "x" + i + " = " + j * i);
+                    }
+                }
 
 
 
