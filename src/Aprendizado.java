@@ -1,9 +1,18 @@
-public class Aprendizado {
+
+
+import java.time.LocalDateTime;
+import java.time.LocalDate;
+import java.time.format.TextStyle;
+import java.util.Locale;
+
+
+
+    public class Aprendizado {
 
     public static void main(String[] args) {
 
-            /*
-            TIPOS DE VARIÁVEIS;
+
+            /* TIPOS DE VARIÁVEIS;
 
             String meuNome = Gabriel;
             byte idade = 123;
@@ -18,7 +27,7 @@ public class Aprendizado {
 
             // Para variavel imutável usar o ("final" tipoDaVariavel NOME_DA_VARIAVEL = valorAtribuido)
 
-            OPERADORES LÓGICOS;
+            // OPERADORES LÓGICOS;
 
             int soma = a + b;
             int subtracao = a - b;
@@ -27,28 +36,28 @@ public class Aprendizado {
 
 
 
-            TABELA VERDADE
+            // TABELA VERDADE
 
             Operador && (AND)
 
             true && true = true
             true && false = false
             false && true = false
-            false && false = false
+            false && false = false  */
 
             boolean fimDeSemana = true;
             boolean fazendoSol = true;
             boolean vamosAPraia = fimDeSemana && fazendoSol;
 
 
-            Operador || (OR)
+            /* Operador || (OR)
 
             true || true = true
             true || false = true
             false || true = true
-            false || false = false
+            false || false = false */
 
-               TESTE DE OPERADOR TRICENTENARIO*/
+             // TESTE DE OPERADOR TRICENTENARIO
 
         boolean meuTeste = true;
 
@@ -57,32 +66,32 @@ public class Aprendizado {
         System.out.println(mensagem);
 
 
-        /* ESTRUTUTURAS CONDICIONAIS
+        // ESTRUTUTURAS CONDICIONAIS
 
-        If-else
+        // If-else
 
-        int nota = 90
+        int nota = 90;
 
             if (nota >= 70) {
-                System.out.println("Aluno Aprovado!")
+                System.out.println("Aluno Aprovado!");
             }    else {
-                System.out.println("Não aprovado!")
+                System.out.println("Não aprovado!");
                }
 
             if (nota >= 80) {
                 System.out.println("Graduação A");
-            } else if (nota < 80 && > 70) {
+                } else if (nota < 80 && > 70) {
                 System.out.println("Graduação B");
-            } else if (nota < 70 && > 60) {
+                } else if (nota < 70 && > 60) {
                 System.out.println("Graduação C");
-            } else if (nota < 60 && > 0) {
+                } else if (nota < 60 && > 0) {
                 System.out.println("Graduação D");
             } else {
 
             }
-System.out.println("Nota inválida");
+                System.out.println("Nota inválida");
 
-            CÓDIGO DE FORMA MAIS SOFISTICADA:
+            // CÓDIGO DE FORMA MAIS SOFISTICADA:
 
             String = graduacao;
 
@@ -108,10 +117,67 @@ System.out.println("Nota inválida");
                     System.out.println("Não aprovado");
                     break;
                 default:
-                    System.out.println("Graduação inválida!");.
+                    System.out.println("Graduação inválida!");
 
 
-         */
+                // MANIPULAÇÃO DE STRINGS E DATAS
+
+                String nome = "Gabriel";
+                System.out.println(nome.toUpperCase);
+                System.out.println(nome.toLowerCase);
+                System.out.println(nome.length);
+
+                LocalDate hoje = LocalDate.now();
+                Locale brasil = new Locale( "pt", "BR");
+
+                System.out.println(hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil));
+                String diaSemana = hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil);
+                String saudacao;
+                LocalDateTime agora = LocalDateTime.now();
+                if (agora.getHour() >= 0 && agora.getHour() < 12 ) {
+                    saudacao = "bom dia";
+                } else if (agora.getHour() >= 12 && agora.getHour < 18) {
+                    saudacao = "boa tarde";
+                } else if (agora.getHour() >= 18 && agora.getHour < 24) {
+                    saudacao = "boa noite";
+                } else {
+                    saudacao = "Tenha um ótimo dia!";
+                }
+
+                System.out.printf("Olá, %s. Hoje é %s, %s.%n", nome, diaSemana, saudacao.toUpperCase());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
