@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="200d3575-5fc0-4a6e-9447-2af52a56567b" name="Changes" comment="Manipulação de strings e datas">
+    <list default="true" id="200d3575-5fc0-4a6e-9447-2af52a56567b" name="Changes" comment="Laços númericos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aprendizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aprendizado.java" afterDir="false" />
     </list>
@@ -87,12 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718405794602</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Laços númericos">
+      <option name="closed" value="true" />
+      <created>1718406564806</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718406564827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Estruturas condicionais" />
     <MESSAGE value="Manipulação de strings e datas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manipulação de strings e datas" />
+    <MESSAGE value="Laços númericos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laços númericos" />
   </component>
 </project>

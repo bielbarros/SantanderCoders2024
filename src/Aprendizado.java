@@ -78,13 +78,13 @@ import java.util.Locale;
                 System.out.println("Não aprovado!");
                }
 
-            if (nota >= 80) {
+            if (nota >= 80)
                 System.out.println("Graduação A");
-                } else if (nota < 80 && > 70) {
+            else if (nota < 80 && > 70) {
                 System.out.println("Graduação B");
-                } else if (nota < 70 && > 60) {
+            } else if (nota < 70 && > 60) {
                 System.out.println("Graduação C");
-                } else if (nota < 60 && > 0) {
+            } else if (nota < 60 && > 0) {
                 System.out.println("Graduação D");
             } else {
 
@@ -93,7 +93,7 @@ import java.util.Locale;
 
             // CÓDIGO DE FORMA MAIS SOFISTICADA:
 
-            String = graduacao;
+        String graduacao;
 
             if (graduacao >= 80) {
                 graduacao = "A";
@@ -107,7 +107,7 @@ import java.util.Locale;
                 graduacao = "";
             }
 
-            switch (graduação);
+            switch (graduacao);
                 case "A":
                 case "B":
                     System.out.println("Aluno aprovado!");
@@ -157,15 +157,29 @@ import java.util.Locale;
                 }
 
 
+                // VETORES (ARRAYS)
 
 
+                String[] letras = {"A", "B", "C", "D", "E"};
+                    for (int i =0; i < letras.length; i++) {
+                        System.out.println(letras[i]);
+                    }
 
 
+                    int [] numeros = {9, 10,12, 25, 2};
+                    int maior = numeros[0];
+                    int menor = numeros[0];
+                    int media;
 
+                    for (int i=0; i < numeros.length; i++) {
+                        if (numeros[i] > maior) {
+                            maior = numeros[i];
+                        }
+                    }
 
-
-
-
+                    System.out.println("Maior: " + maior);
+                    System.out.println("Menor: " + menor);
+                    System.out.println("Media: " +media/numeros.length);
 
 
 
