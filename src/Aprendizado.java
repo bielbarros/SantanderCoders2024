@@ -179,27 +179,39 @@ import java.util.Locale;
 
                     System.out.println("Maior: " + maior);
                     System.out.println("Menor: " + menor);
-                    System.out.println("Media: " +media/numeros.length);
+                    System.out.println("Media: " + media/numeros.length);
 
 
+                    // MÉTODO
+
+                    String nomeOriginal = "Gabriel";
+                        saudacao(nomeOriginal);
 
 
+                    int resultado = soma(a:2; b:3);
+                        System.out.println(resultado);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
     }
+
+
+
+
+                    public static void saudacao(String nomeParametro) {
+                        System.out.println("Hello, " + nomeParametro);
+                    }
+
+                    public static int soma(int a, int b) {
+                         return a + b;
+                    }
+
+
+
+
+
+
+
+
+
 }
+
